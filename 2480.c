@@ -33,7 +33,7 @@ int dice(int dice1, int dice2, int dice3){
         result = 1000+com*100;
     }
 
-    else if(dice1 != dice2 && dice2 != dice3){ // 같은 눈이 2개만 나오는 경우
+    else if(dice1 != dice2 && dice2 != dice3){ // 모두 다른 눈이 나온 경우
         if(dice1>com){
             com = dice1;
         }
